@@ -42,7 +42,7 @@ const AddEditEmployee: React.FC<AddEditEmployeeProps> = ({ employee }) => {
     // Dispatch create action with form data
     dispatch(createEmployee(formData));
   }
-    // navigate('/');
+    navigate('/');
   };
 
   return (
